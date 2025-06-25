@@ -263,6 +263,14 @@ class ChessGame {
 
   switchPlayer() {
     this.currentPlayer = this.currentPlayer === "white" ? "black" : "white"
+
+    // Rotate board for black player
+    const chessboard = document.getElementById("chessboard")
+    if (this.currentPlayer === "black") {
+      chessboard.classList.add("rotated")
+    } else {
+      chessboard.classList.remove("rotated")
+    }
   }
 
   updateDisplay() {
@@ -311,6 +319,10 @@ class ChessGame {
     this.selectedSquare = null
     this.gameOver = false
     this.capturedPieces = { white: [], black: [] }
+
+    // Reset board rotation
+    const chessboard = document.getElementById("chessboard")
+    chessboard.classList.remove("rotated")
 
     this.createBoard()
     this.updateDisplay()
