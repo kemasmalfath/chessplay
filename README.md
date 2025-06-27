@@ -53,16 +53,6 @@ Sebuah permainan catur interaktif yang dibuat dengan HTML, CSS, dan JavaScript m
 - Pemenang akan ditampilkan di layar
 - Klik **"New Game"** untuk memulai permainan baru
 
-## 🔧 Struktur File
-
-\`\`\`
-chess-game/
-│
-├── index.html          # Struktur HTML utama
-├── styles.css          # Styling dan tema gelap
-├── script.js           # Logic permainan dan interaksi
-└── README.md           # Dokumentasi ini
-\`\`\`
 
 ## 🎨 Teknologi yang Digunakan
 
