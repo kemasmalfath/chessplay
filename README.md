@@ -57,16 +57,9 @@ Sebuah permainan catur interaktif yang dibuat dengan HTML, CSS, dan JavaScript m
 3. Klik kanan pada `index.html` → "Open with Live Server"
 4. Game akan terbuka di browser secara otomatis
 
-### Metode 3: Web Server
-\`\`\`bash
-# Menggunakan Python
-python -m http.server 8000
 
 # Menggunakan Node.js
 npx http-server
-
-# Akses di browser: http://localhost:8000
-\`\`\`
 
 ## 📱 Mobile Support
 
